@@ -30,10 +30,10 @@ This project presents a computational pipeline developed in **Python** for predi
 
 | Analysis                          | Graph                                                                                |
 | --------------------------------- | ------------------------------------------------------------------------------------ |
-| Missing values per column         | ![](https://github.com/usman-Iqbal-5/data-mining-pipeline/Images/missing-values-per-column) |
-| Missing values per row            | ![](https://github.com/user-attachments/assets/cc60e69d-6173-438c-adf1-c94abae4b60f) |
-| Feature value spread (max vs min) | ![](https://github.com/user-attachments/assets/401ffc7f-b58d-4711-bf29-d355586fde64) |
-| Class imbalance                   | ![](https://github.com/user-attachments/assets/7a220a80-e5f7-40ee-93df-48246ea6e94f) |
+| Missing values per column         | ![missing values per column graph](Images/missing-values-per-column) |
+| Missing values per row            | ![missing values per row graph](Images/missing-values-per-row) |
+| Feature value spread (max vs min) | ![maxima and minima graph](Images/maxima-and-minima) |
+| Class imbalance                   | ![class imbalance graph](Images/class-imbalance) |
 
 ---
 
@@ -46,14 +46,14 @@ To improve model performance and reduce overfitting in this high-dimensional dat
 * **Information Gain** was computed for each feature relative to the target variable (epitope/non-epitope).
 * The top 10 most informative features were selected for initial model training.
 
-  <img width="606" alt="Information Gain - Top Features" src="https://github.com/user-attachments/assets/e4eff02a-3ca9-4f72-bd67-ac8f2e5da589">
+  ![information gain top features graph](Images/information-gain-top-features)
 
 #### ✅ Embedded Method – Random Forest Feature Importance
 
 * A **Random Forest classifier** was trained and its built-in feature importance scores were used to evaluate the contribution of each feature.
 * The top 15 features were identified, based on how much they helped differentiate between the classes.
 
-  <img width="608" alt="Random Forest Feature Importance" src="https://github.com/user-attachments/assets/87c7a448-427f-4c71-b70f-a7ee1bee2d79">
+   ![random forest feature importance graph](Images/random-forest-feature-importance)
 
 These selected features were used to:
 
