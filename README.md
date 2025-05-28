@@ -30,7 +30,7 @@ This project presents a computational pipeline developed in **Python** for predi
 
 | Analysis                          | Graph                                                                                |
 | --------------------------------- | ------------------------------------------------------------------------------------ |
-| Missing values per column         | ![](https://github.com/user-attachments/assets/3eabc5c9-ff5a-4499-843e-e54e1f78ac4d) |
+| Missing values per column         | ![](https://github.com/usman-Iqbal-5/data-mining-pipeline/Images/missing-values-per-column) |
 | Missing values per row            | ![](https://github.com/user-attachments/assets/cc60e69d-6173-438c-adf1-c94abae4b60f) |
 | Feature value spread (max vs min) | ![](https://github.com/user-attachments/assets/401ffc7f-b58d-4711-bf29-d355586fde64) |
 | Class imbalance                   | ![](https://github.com/user-attachments/assets/7a220a80-e5f7-40ee-93df-48246ea6e94f) |
