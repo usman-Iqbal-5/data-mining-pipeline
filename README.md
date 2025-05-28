@@ -83,8 +83,6 @@ These selected features were used to:
 * Developed a **functional programming-style pipeline** for B-cell epitope prediction using the best-performing model.
 * Applied the model to unseen protein data to generate potential epitope candidates.
 
-![Epitope prediction pipeline](https://github.com/user-attachments/assets/f63c8d7d-b768-42cd-b08e-81c268399f85)
-
 ---
 
 ## 🚀 Getting Started
