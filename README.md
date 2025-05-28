@@ -30,10 +30,10 @@ This project presents a computational pipeline developed in **Python** for predi
 
 | Analysis                          | Graph                                                                                |
 | --------------------------------- | ------------------------------------------------------------------------------------ |
-| Missing values per column         | ![missing values per column graph](Images/missing-values-per-column) |
-| Missing values per row            | ![missing values per row graph](Images/missing-values-per-row) |
-| Feature value spread (max vs min) | ![maxima and minima graph](Images/maxima-and-minima) |
-| Class imbalance                   | ![class imbalance graph](Images/class-imbalance) |
+| Missing values per column         | ![missing values per column graph](Images/missing-values-per-column.png) |
+| Missing values per row            | ![missing values per row graph](Images/missing-values-per-row.png) |
+| Feature value spread (max vs min) | ![maxima and minima graph](Images/maxima-and-minima.png) |
+| Class imbalance                   | ![class imbalance graph](Images/class-imbalance.png) |
 
 ---
 
@@ -46,14 +46,14 @@ To improve model performance and reduce overfitting in this high-dimensional dat
 * **Information Gain** was computed for each feature relative to the target variable (epitope/non-epitope).
 * The top 10 most informative features were selected for initial model training.
 
-  ![information gain top features graph](Images/information-gain-top-features)
+  ![information gain top features graph](Images/information-gain-top-features.png)
 
 #### ✅ Embedded Method – Random Forest Feature Importance
 
 * A **Random Forest classifier** was trained and its built-in feature importance scores were used to evaluate the contribution of each feature.
 * The top 15 features were identified, based on how much they helped differentiate between the classes.
 
-   ![random forest feature importance graph](Images/random-forest-feature-importance)
+   ![random forest feature importance graph](Images/random-forest-feature-importance.png)
 
 These selected features were used to:
 
